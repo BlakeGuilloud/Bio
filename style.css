@@ -1,0 +1,230 @@
+
+
+body {
+  background-color: #696758;
+  color: white;
+}
+
+p {
+  font-family: Josefin Sans;
+  display: block;
+  border-top-style: solid;
+}
+
+h1 {
+  font-family: Josefin Sans;
+}
+
+/*****************
+  NAVINGATION
+******************/
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav {
+  font-family: Poly;
+  font-size: 20px;
+  background-color: #C5BC8E;
+  display: block;
+  width: 100%;
+}
+
+nav a:link {
+  color: #36393B;
+}
+nav a:visited {
+  color: #36393B;
+}
+
+nav a:hover {
+  color: #EEE6AB;
+}
+a:active {
+    color: #0000FF;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+.social {
+  float: right;
+  margin: auto;
+}
+
+.social img {
+  width: 25px;
+  padding-left: 10px;
+}
+
+.social li {
+  display: flex;
+  vertical-align: bottom;
+}
+
+
+
+
+/*****************
+  SECTION
+******************/
+
+section {
+  float: left;
+  margin: auto;
+  margin-top: 10px;
+  width: 63%;
+  background-color: #C5BC8E;
+  text-align: center;
+  color: #36393B;
+}
+
+section h1 {
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+
+section p {
+  padding: 20px;
+  margin: auto;
+  text-align: justify;
+}
+
+.secondary img {
+  display: none;
+  margin: auto;
+  border-style: solid;
+  width: 80%;
+}
+
+.historySection {
+  width: 100%;
+}
+
+
+
+/*****************
+  ASIDE
+******************/
+
+aside {
+  float: right;
+  margin: auto;
+  margin-top: 10px;
+  width: 36%;
+  background-color: #C5BC8E;
+  text-align: center;
+  color: #36393B;
+}
+
+aside h1 {
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+
+aside p {
+  padding: 20px;
+  margin: auto;
+  text-align: justify;
+}
+
+
+
+/*****************
+  LIKES
+******************/
+
+#photos img {
+  display: inline-block;
+}
+
+
+/*****************
+  FOOTER
+******************/
+footer ul {
+  list-style-type: none;
+}
+
+footer {
+  font-family: Poly;
+  font-size: 20px;
+  background-color: #C5BC8E;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+footer a:link {
+  color: #36393B;
+}
+footer a:visited {
+  color: #36393B;
+}
+
+footer a:hover {
+  color: #EEE6AB;
+}
+a:active {
+    color: #0000FF;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+footer li {
+  display: inline;
+  margin: 10px;
+}
+
+
+/*****************
+  MEDIA QUERIES
+******************/
+
+
+@media (max-width: 540px) {
+  section{
+    width: 100%;
+  }
+  aside {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  nav {
+    font-size: 30px;
+    display: flex;
+  }
+  .secondary img {
+    display: flex;
+  }
+	}
