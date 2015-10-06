@@ -146,6 +146,12 @@ aside p {
   text-align: justify;
 }
 
+aside img {
+  display: flex;
+  width: 98.5%;
+  border-style: solid;
+}
+
 
 
 /*****************
