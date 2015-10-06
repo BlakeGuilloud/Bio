@@ -15,6 +15,10 @@ h1 {
   font-family: Josefin Sans;
 }
 
+.Rick {
+  display: none;
+}
+
 /*****************
   NAVINGATION
 ******************/
@@ -30,6 +34,8 @@ nav {
   background-color: #C5BC8E;
   display: block;
   width: 100%;
+  border-style: solid;
+  border-color: black;
 }
 
 nav a:link {
@@ -91,6 +97,7 @@ section {
   background-color: #C5BC8E;
   text-align: center;
   color: #36393B;
+  border-style: solid;
 }
 
 section h1 {
@@ -117,6 +124,27 @@ section p {
   width: 100%;
 }
 
+.likesSection {
+  width: 30%;
+  margin: 10px;
+}
+.likesSection img {
+  width: 65%;
+  border-style: solid;
+  border-color: #340A0B;
+  border-radius: 5px;
+}
+
+.likesSectionBot{
+  margin: 10px;
+  width: 63%;
+}
+
+.likesSectionBot img {
+  border-style: solid;
+  border-color: #340A0B;
+  border-radius: 5px;
+}
 
 
 /*****************
@@ -127,10 +155,11 @@ aside {
   float: right;
   margin: auto;
   margin-top: 10px;
-  width: 36%;
+  width: 35%;
   background-color: #C5BC8E;
   text-align: center;
   color: #36393B;
+  border-style: solid;
 }
 
 aside h1 {
@@ -148,8 +177,7 @@ aside p {
 
 aside img {
   display: flex;
-  width: 98.5%;
-  border-style: solid;
+  width: 100%;
 }
 
 
@@ -177,7 +205,10 @@ footer {
   display: flex;
   width: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: -50px;
+  margin-bottom: -150px;
+  border-style: solid;
+  border-color: black;
 }
 
 footer a:link {
@@ -209,14 +240,27 @@ footer li {
   display: inline;
   margin: 10px;
 }
+.socialFooter {
+  float: right;
+  margin: auto;
+}
 
+.socialFooter img {
+  width: 25px;
+  padding-left: 10px;
+}
+
+.socialFooter li {
+  display: flex;
+  vertical-align: bottom;
+}
 
 /*****************
   MEDIA QUERIES
 ******************/
 
 
-@media (max-width: 540px) {
+@media (max-width: 615px) {
   section{
     width: 100%;
   }
@@ -233,4 +277,19 @@ footer li {
   .secondary img {
     display: flex;
   }
+  .socialFooter {
+    display: flex;
+  }
 	}
+
+  @media (max-width: 800px){
+    .likesSection, .likesSectionBot {
+      display: none;
+    }
+    .Rick {
+      display: flex;
+      width: 100%;
+      margin: auto;
+      align-content: center;
+    }
+  }
